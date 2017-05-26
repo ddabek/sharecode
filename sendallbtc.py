@@ -17,7 +17,7 @@ dest = 'publickey'
 #get utxo
 utxos = unspent(source_addr)
 
-print 'history : ' + str(h)
+print 'history : ' + str(utxos)
 
 #history_format = [{'output': u'd2949b5d8c62db9deeb06046273cbc1f77c3:1', 'block_height': 442236, 'value': 100000, 'address': u'publickey'}]
 
